@@ -11,26 +11,20 @@
         <div class="mainDiv">
             <h1>Main Div</h1>
             <div class="secondDiv">
-                 <button onclick="
-                 myFunc('prnv')">
+                 <button class="firstbutton" onclick="
+                 myFunc('apple')">
                  
                     click
-                 </button>
+            </button>
+            </div>
+            <div class="thirdDiv">
+                <button class="subBut subButJS" id= "subButton" onClick= "changebutton()">
+                    subscribe
+                </button>
             </div>
         </div>
-        <script>
-            let count = 0;
-            let count2 = 2;
-             count+=count2
-            console.log(count)
-        
-        
-            console.log()
-            function myFun(param1){
-                count+=count2;
-                console.log('count is: ${param1}. you are welcome')
-            }
-            // myFunc()
+        <script src="scripts.js">
+            
         </script>
        
     </body>
