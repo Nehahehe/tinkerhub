@@ -11,11 +11,28 @@
         <div class="mainDiv">
             <h1>Main Div</h1>
             <div class="secondDiv">
-                 <button>click</button>
+                 <button onclick="
+                 myFunc('prnv')">
+                 
+                    click
+                 </button>
             </div>
         </div>
-
+        <script>
+            let count = 0;
+            let count2 = 2;
+             count+=count2
+            console.log(count)
         
+        
+            console.log()
+            function myFun(param1){
+                count+=count2;
+                console.log('count is: ${param1}. you are welcome')
+            }
+            // myFunc()
+        </script>
+       
     </body>
     </html>
     
